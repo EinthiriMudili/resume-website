@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route("/resume")
 def resume():
     f = open("resume.json", "r")
-    return jsonify(f.read())
+    return (f.read())
 
 # run the application
 if __name__ == "__main__":
