@@ -6,7 +6,7 @@ app = Flask(__name__)
 # a route where we will display a welcome message via an HTML template
 @app.route("/resume")
 def resume():
-    f = open("resume.json", "r"
+    f = open("resume.json", "r")
     return f.read()
 
 # run the application
