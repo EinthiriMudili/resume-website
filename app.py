@@ -1,6 +1,6 @@
 from flask import Flask
 from flask import jsonify 
-from flask_CORS import CORS
+from flask_cors import CORS
 
 # creates a Flask application, named app
 app = Flask(__name__)
