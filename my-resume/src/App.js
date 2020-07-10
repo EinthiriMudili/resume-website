@@ -33,7 +33,7 @@ class App extends React.Component {
 
 
 
-						<h4 className=".bg-warning"> Hobbies </h4>
+						<h4 className="bg-warning"> Hobbies </h4>
 						<ul className="list-group">
 							{this.state.resume.hobbies.map(hobby => <li className='list-group-item'>{hobby}</li>)}
 						</ul>
