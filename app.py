@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, send_from_directory
 from flask import jsonify 
 from flask_cors import CORS
 
@@ -8,6 +8,10 @@ CORS(app)
 
 f = open("resume.json", "r")
 taha = f.read()
+
+@app.route("/")
+def index():
+    return send_from_directory('static', 'index.html')
 
 # a route where we will display a welcome message via an HTML template
 @app.route("/resume")
