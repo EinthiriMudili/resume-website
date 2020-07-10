@@ -33,17 +33,17 @@ class App extends React.Component {
 
 
 
-						<h4 className="bg-warning"> Hobbies </h4>
+						<h4 className="bg-danger"> Hobbies </h4>
 						<ul className="list-group">
 							{this.state.resume.hobbies.map(hobby => <li className='list-group-item'>{hobby}</li>)}
 						</ul>
 
-						<h4> Courses </h4>
+						<h4 className="bg-success"> Courses </h4>
 						<ul className="list-group">
 							{this.state.resume.courses.map(course => <li className='list-group-item'>{course}</li>)}
 						</ul>
 
-						<h4> Awards </h4>
+						<h4 className="bg-info"> Awards </h4>
 						<ul className="list-group">
 							{this.state.resume.awards.map(award => <li className='list-group-item'>{award}</li>)}
 						</ul>
