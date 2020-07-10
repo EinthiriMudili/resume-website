@@ -1,0 +1,36 @@
+{
+  "name": "Einthiri Mudili",
+  "age": 15,
+  "gpa": 4.17,
+  "hobbies": [
+    "Guitar",
+    "Singing",
+    "Dance",
+    "Volleyball"
+  ],
+  "courses": [
+    "Honors Biology",
+    "Spanish",
+    "Algebra II Honors", 
+    "Geometry Honors",
+    "World Civilizations",
+    "English I",
+    "Public Speaking",
+    "Innovation and Design",
+    "Computer Science Summer Course 2020",
+    "AP Microeconomics",
+    "Northwestern University 3D Design",
+    "Northwestern University Human Anatomy and Physiology",
+    "Northwestern University Nanotechnology"
+  ],
+  "awards": [
+    "State Forensics First Place",
+    "State Forensics Second Place",
+    "Citizenship Award",
+    "WFMC State Festival First Place (4)",
+    "Brewers Student Achiever Award - Highest Academic Achievement",
+    "DhimTANA Finals First Place",
+    "Cho's Tournament First Place (2)",
+    "Chess Tournament First Place"
+  ]
+}
