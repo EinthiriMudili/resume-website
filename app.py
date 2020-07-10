@@ -3,7 +3,7 @@ from flask import jsonify
 from flask_cors import CORS
 
 # creates a Flask application, named app
-app = Flask(__name__)
+app = Flask(__name__, static_folder='static')
 CORS(app)
 
 f = open("resume.json", "r")
