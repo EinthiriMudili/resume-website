@@ -27,11 +27,6 @@ class App extends React.Component {
 
 
 						<h2> {this.state.resume.name} </h2>
-						<div class="row">
-							<div class="col-sm-4">.col-sm-4</div>
-							<div class="col-sm-4">.col-sm-4</div>
-							<div class="col-sm-4">.col-sm-4</div>
-						</div>
 						<h3> Age: {this.state.resume.age} </h3>
 						<h4> Gpa: {this.state.resume.gpa} </h4>
 
@@ -56,7 +51,7 @@ class App extends React.Component {
 					
 
 						<div className="container">
-							<img src="profile.jpg" className="profile-image" alt="Profile" />
+							<img src="Profile.jpg" className="profile-image" alt="Profile" />
 						</div>
 					</div>)
 				}
