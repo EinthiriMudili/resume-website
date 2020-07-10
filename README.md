@@ -1,2 +1,2 @@
 # Resume-Website
-https://einthiri-resume.herokuapp.com
+https://einthiri-resume.herokuapp.com/resume
